@@ -434,10 +434,11 @@
             </div>
             <div class="footer-input-btn">
                 <p class="footer-last-p">Subscribe</p>
-                <form action="" class="footer-form">
-                    <input class="footer-input" type="email" placeholder="E-mail">
-                    <button class="footer-btn-input footer-last-p">Subscribe
-                        <svg width="24" height="24">
+                <form class="footer-form">
+                    <label class="footer-label" for="e-mail-footer"></label>
+                    <input class="footer-input" type="email" placeholder="E-mail" id="e-mail-footer" name="e-mail">
+                    <button class="footer-btn-input footer-last-p" type="submit">Subscribe
+                        <svg class="footer-telegram-svg" width="24" height="24">
                             <use href="./images/icons.svg#icon-telegram"></use>
                         </svg>
                     </button>
@@ -448,7 +449,7 @@
     <div class="modal-overlay">
         <div class="modal">
             <button class="modal-close-btn" type="button">
-                <svg class="modal-close-icon">
+                <svg class="modal-close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
             </button>
@@ -458,8 +459,8 @@
                 <div class="review-form-wrapper">
                     <label class="review-form-lable" for="user-name">Name</label>
                     <div class="review-wrapper-input-icon">
-                    <input class="review-form-input" type="text" id="user-name" name="name" required>
-                    <svg class="review-form-icon" width="18px" height="24px">
+                    <input class="review-form-input" type="text" id="user-name" name="user-name" required>
+                    <svg class="review-form-icon" width="18" height="24">
                         <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
                     </svg>
                 </div>
@@ -469,7 +470,7 @@
                     <label class="review-form-lable" for="user-phone-number">Phone</label>
                     <div class="review-wrapper-input-icon">
                     <input class="review-form-input" type="tel" id="user-phone-number" required name="phone-number">
-                    <svg class="review-form-icon" width="18px" height="24px">
+                    <svg class="review-form-icon" width="18" height="24">
                         <use href="./images/icons.svg#icon-phone-black"></use>
                     </svg>
                     </div>
@@ -479,7 +480,7 @@
                     <label class="review-form-lable" for="user-email">Email</label>
                     <div class="review-wrapper-input-icon">
                         <input class="review-form-input" type="email" id="user-email" name="email" required>
-                        <svg class="review-form-icon" width="18px" height="24px">
+                        <svg class="review-form-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                         </svg>
                     </div>
@@ -487,13 +488,13 @@
 
                 <div class="review-comment-form">
                     <label class="review-form-lable" for="user-comment">Comment</label>
-                    <textarea class="review-form-comments" name="comment" id="user-comment" placeholder="Text input"></textarea>
+                    <textarea class="review-form-comments" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
                 </div>
                     <div class="review-form-checkbox">
-                        <input class="review-form-checkbox-input visually-hidden" type="checkbox" id="privacy-policy" name="privacy-policy" value="true" required>
-                        <label class="review-form-checkbox-lable" for="privacy-policy">
+                        <input class="review-form-checkbox-input visually-hidden" type="checkbox" id="user-privacy" name="user-privacy" value="true" required>
+                        <label class="review-form-checkbox-lable" for="user-privacy">
                             <span class="reiew-form-custom-checkbox">
-                                <svg class="checkbox-icon-policy" width="10" height="10">
+                                <svg class="checkbox-icon-policy" width="10" height="8">
                                     <use href="./images/icons.svg#icon-icon"></use>
                                 </svg>
                             </span>
